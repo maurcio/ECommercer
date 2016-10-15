@@ -13,6 +13,8 @@ namespace ECommercer.Models
 
         }
 
-        public System.Data.Entity.DbSet<ECommercer.Models.Department> Departments { get; set; }
+        public DbSet<Department> Departments { get; set; }
+
+        public System.Data.Entity.DbSet<ECommercer.Models.City> Cities { get; set; }
     }
 }
